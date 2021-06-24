@@ -1,0 +1,10 @@
+finitialize(v)
+    fcurrent()
+finitialize(v)
+    forall for(x) {
+if (ismembrane("cal")) {e_pas(x)=v(x)+(i_hd(x)+ina(x)+ik(x)+ica(x))/g_pas(x)
+	} else {
+	e_pas(x)=v(x)+(ina(x)+ik(x))/g_pas(x)
+	}
+}
+cvode.re_init()
